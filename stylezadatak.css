@@ -1,0 +1,46 @@
+.c1{
+    list-style-type: upper-latin;
+}
+
+.c2{
+    list-style-type: lower-latin;
+}
+
+.c3{
+   list-style-type: none;
+}
+
+.c3 li::before{
+    content: "\2023";
+    color: #0071c4;
+    font-size: 20px;
+}
+
+hr{
+    border: dotted 2px;
+    color:#15588a;
+    ;
+}
+
+section{
+    border: 2px solid grey;
+}
+
+p::first-letter{
+    color:#0071c4;
+    font-size: 2em;
+}
+
+::marker{
+    color: #0071c4;
+}
+
+span::after{
+    content: "\2713";
+    color: green;
+}
+
+h3::first-line{
+    background-color: #c2dcf0;
+    font-variant: small-caps;
+}
