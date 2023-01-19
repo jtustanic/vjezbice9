@@ -44,3 +44,17 @@ h3::first-line{
     background-color: #c2dcf0;
     font-variant: small-caps;
 }
+
+a:visited{
+    color:magenta;
+}
+
+a:hover{
+    background-color: lightgreen;
+    color: yellow;
+}
+
+a:active{
+    background-color: yellow;
+    color: lightgreen;
+}
