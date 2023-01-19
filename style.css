@@ -1,0 +1,43 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p::first-letter{ /* umjesto before, može i after*/
+    content: "- Zapamti ovo!";
+    color: #3890a6;
+    background-color:#d5eaf0;
+}
+
+pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+pre::first-line{
+    background-color: #cadecf;
+    font-variant: small-caps;
+}
+
+pre::first-letter{
+    color:#015c18;
+    font-size: xx-large;
+}
+
+::marker{
+    color: #3d698a;
+    font-size: xx-large;
+}
+
+.jednaklasa{
+    list-style-type: circle;
+}
+
+.klasadva{
+    list-style-type: lower-roman;
+}
+
+::selection{
+    color: #a6cfed;
+    background-color: 
+    #005594
+    ;
+}
